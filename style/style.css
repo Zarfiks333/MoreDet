@@ -242,7 +242,7 @@
     width: 400px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/angrycat.gif);
+    background-image: url(../img/angrycat.gif);
     transition: 5s;
 }
 
