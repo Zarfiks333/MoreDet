@@ -1,4 +1,31 @@
-@media screen and (max-width: 1293px){
+@media screen and (max-width: 2561px){
+    .container {
+        padding-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1441px){
+
+    .bottom_block {
+        height: 45%;
+    }
+
+    .top_container {
+        height: 35%;
+    }
+
+    .img_1{
+        width: 400px;
+        height: 200px;
+    }
+
+    .img_2{
+        width: 400px;
+        height: 200px;
+    } 
+}
+
+@media screen and (max-width: 1175px){
     .text_title{
         font-size: 35px;
     }
@@ -9,18 +36,22 @@
     }
 
     .img_1{
-        width: 250px;
-        height: 125px;
-        bottom: -10px;
+        width: 300px;
+        height: 150px;
+        bottom: -20px;
     }
 
     .img_2{
-        width: 250px;
-        height: 125px;
+        width: 300px;
+        height: 150px;
     } 
 
     .top_footer{
-        height: 40%;
+        height: 90%;
+    }
+
+    .bottom_block {
+        height: 50%;
     }
 
     .top_container{
@@ -60,16 +91,115 @@
     }
 }
 
-
-@media screen and (max-width: 700px){
-
-    .right_block_login{
-        height: 80%;
+@media screen and (max-width: 865px){
+    .top_container{
+        height: 15%;
     }
 
-    .login_block_forum{
-        width: 340px;
+    .img_1{
+        left: -70px;
+        width: 200px;
+        height: 100px;
+        bottom: -20px;
+    }
+
+    .img_2{
+        left: 20px;
+        width: 200px;
+        height: 100px;
+    } 
+
+    .text_block{
+        font-size: 10px;
+    }
+    
+    .text_title{
+        font-size: 25px;
+    }
+
+    .login_btn a{
+        font-size: 20px;
+    }
+
+    .logo a{
+        font-size: 135%;
+    }
+
+    .menu a{
+        font-size: 15px;
     }
 }
 
+@media screen and (max-width: 500px){
+
+    .top_container{
+        height: 18%;
+    }
+
+    .img_1{
+        left: -10px;
+        width: 150px;
+        height: 80px;
+        bottom: -20px;
+    }
+
+    .img_2{
+        left: 10px;
+        width: 150px;
+        height: 80px;
+    } 
+
+
+    .logo{
+        padding-left: 10px;
+    }
+
+    .menu_header{
+        margin-left: 5%;
+        width: 85%;
+    }
+
+    .menu{
+        font-size: 10px;
+    }
+
+    .menu a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 340px){
+
+    .img_1{
+        visibility: hidden;
+    }
+
+    .img_2{
+        visibility: hidden;
+    } 
+
+
+    .logo{
+        font-size: 59%;
+    }
+
+    .menu_header{
+        margin-left: 5%;
+        width: 85%;
+    }
+
+    .menu{
+        font-size: 10px;
+    }
+
+    .menu a{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    .login_btn a{
+        margin-left: -10px;
+        font-size: 15px;
+    }
+}
 
