@@ -42,7 +42,7 @@
     filter: blur(300px);
 }
 
-#menu_header{
+.menu_header{
     margin-left: 20%;
     height: 100%;
     width: 60%;
@@ -132,7 +132,7 @@
 .logo{
     padding-left: 30px;
     height: 100%;
-    width: 300px;
+    width: 30%;
     display: flex;
     align-items: center;
 }
@@ -140,7 +140,7 @@
 .logo a{
     color: rgb(112, 112, 112);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 200%;
     font-family: "Dela Gothic One", sans-serif;
     transition: 0.5s;
 }
@@ -154,7 +154,7 @@
 .menu{
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
@@ -242,11 +242,15 @@
     width: 400px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url(../img/angrycat.gif);
+    background-image: url(/img/angrycat.gif);
     transition: 5s;
 }
 
 .gif_bblock:hover{
     background-size: 200%;
 
+}
+
+@media (max-width: 770px) {
+    
 }
