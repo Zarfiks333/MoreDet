@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.conteiner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .timeline{
 	width:800px;
 	color:#ffffff;
@@ -15,13 +22,13 @@
 	padding:10px 5px;
 }
 .timeline ul li{
-	padding:60px 30px;
+	width: 60%;
+	padding: 40px 30px;
 	position:relative;
 	cursor:pointer;
 	transition:.5s;
 }
 .timeline ul li .content h3{
-    background-color: #ffffff38;
     width: 20%;
     padding: 10px;
     border-radius: 10px;
@@ -48,7 +55,7 @@
 	transition:.5s;
 }
 .timeline ul li:hover{
-    border-radius: 20px;
+    border-radius: 30px;
 	background-color:#ffffff33;
 }
 .timeline ul li:hover:before{
