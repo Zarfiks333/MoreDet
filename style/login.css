@@ -34,7 +34,7 @@ body, html{
     float: right;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/back.png);
+    background-image: url(../img/back.png);
     transition: 0.35s;
     border-radius: 5px;
 }
