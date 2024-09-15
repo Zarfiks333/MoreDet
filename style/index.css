@@ -73,7 +73,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    background-image: url(../img/imgone.jpg);
+    background-image: url(/img/imgone.jpg);
     transition: 0.35s;
 }
 
@@ -86,7 +86,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../img/imgtwo.jpg);
+    background-image: url(/img/imgtwo.jpg);
     transition: 0.35s;
 }
 
