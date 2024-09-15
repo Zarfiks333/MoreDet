@@ -1,0 +1,75 @@
+@media screen and (max-width: 1293px){
+    .text_title{
+        font-size: 35px;
+    }
+
+    .text_block{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .img_1{
+        width: 250px;
+        height: 125px;
+        bottom: -10px;
+    }
+
+    .img_2{
+        width: 250px;
+        height: 125px;
+    } 
+
+    .top_footer{
+        height: 40%;
+    }
+
+    .top_container{
+        height: 20%;
+    }
+    
+    .logo{
+        font-size: 70%;
+    }
+
+    .menu_header{
+        height: 70%;
+        width: 60%;
+    }
+
+    .login_btn a{
+        padding: 5px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .menu a{
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+        display: flex;
+        margin-left: 15px; 
+        font-size: 20px;
+    }
+
+    .info_block_c_block{
+        font-size: 25px;
+    }
+
+    .gif_bblock{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+
+    .right_block_login{
+        height: 80%;
+    }
+
+    .login_block_forum{
+        width: 340px;
+    }
+}
+
+
