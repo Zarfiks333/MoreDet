@@ -288,9 +288,15 @@ body{
     }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 625px) {
+
+    .block-info{
+        margin: 0 10px 0 10px;
+        width: 35%;
+    }
+
     .text-block-info{
-        font-size: 5%;
+        font-size: 7px;
     }
 
     .block-bottom{
