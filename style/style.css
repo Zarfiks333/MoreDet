@@ -245,3 +245,88 @@ body{
     color: rgb(49, 49, 49);
     text-decoration: none;
 }
+
+@media screen and (max-width: 1410px) {
+    .text-block-info{
+        font-size: 12px;
+    }
+
+    .text-left span{
+        font-size: 30px;
+    }
+
+    .text-right span{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .text-block-info{
+        font-size: 8px;
+    }
+
+    .block-bottom{
+        height: 300px;
+    }
+
+    .text-left{
+        width: 90%;
+        margin-right: 10%;
+    }
+
+    .text-right{
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .text-left span{
+        font-size: 20px;
+    }
+
+    .text-right span{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .text-block-info{
+        font-size: 5%;
+    }
+
+    .block-bottom{
+        height: 300px;
+    }
+
+    .text-left{
+        width: 90%;
+        margin-right: 10%;
+    }
+
+    .text-right{
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .text-left span{
+        font-size: 20px;
+    }
+
+    .text-right span{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
