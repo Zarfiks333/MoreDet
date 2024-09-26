@@ -1,7 +1,0 @@
-body, html{
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-image: url(../img/background.png);
-}
-
-::-webkit-scrollbar { width: 0; }
